@@ -17,7 +17,7 @@ False when checkpoint got deleted or failed. Why false and not true? Mistery.
 
 ## Examples
 ```lua
-local checkpointHandle = CreateCheckpoint(12, 1111.1111, 222.222, 33.33, 2222.2222, 333.333, 44.44, 5.0, 255, 0, 0, 200, 0)
-DeleteCheckpoint(checkpointHandle)
+local checkpointId = CreateCheckpoint(12, 1111.1111, 222.222, 33.33, 2222.2222, 333.333, 44.44, 5.0, 255, 0, 0, 200, 0)
+DeleteCheckpoint(checkpointId)
 ```
 
